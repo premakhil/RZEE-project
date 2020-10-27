@@ -8,7 +8,9 @@ html,body {
   background-color: #2234ae;
   background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
  
-  padding-bottom: 20px;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 
 
 }
