@@ -1,24 +1,24 @@
-
-
 html,body { 
   background: url(Rzee_wallpaper.jpeg) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-  background-size: contain;
+  background-size: contain; 
   background-position: left;
   background-color: #2234ae;
   background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+ 
+  padding-bottom: 20px;
 
-  
-  
+
 }
 
 
 .responsive {
-  width: 50%;
+  width: 50vw;
   
   height: auto;
+  
   opacity: 0.30;
   box-shadow: 0 100px 100px black;
   -webkit-filter: grayscale(100%);
@@ -27,15 +27,47 @@ html,body {
 
 }
 
-
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(1fr,300px));
+  grid-template-rows: auto;
+  justify-items: right;
+  align-items: center;
+  -webkit-transform: translate(10%, -180%);
+}
 
 .logo {
   transition: all 0.3s linear;
   border-radius: 70px;
   opacity: 2.50;
   position: relative;
-  left: 120px;
+  right: 50px;
   box-shadow: 4px 4px 5px rgba(0, 0, 255, 0.589);
+  width: 35vw;
+  height: auto;
+  filter: grayscale(10%);
 
 }
 
+.btn-lg {
+ 
+  position: relative;
+  float: left;
+
+  left: 71vw;
+  bottom: 35vw;
+  color: blue;
+  background-color: black;
+  border-radius: 20px;
+  transition: all 0.3s;
+  width: 8vw;
+  box-shadow: 4px 4px 5px rgba(0, 0, 255, 0.589);
+  text-align: center;
+  
+}
+   
+.btn-lg:hover {
+  color: black;
+  background-color: blue;
+  box-shadow: 4px 4px 5px black;
+}
