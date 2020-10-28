@@ -51,7 +51,7 @@ html,body {
 
 }
 
-.btn-lg {
+.play {
  
   position: relative;
   float: left;
@@ -68,7 +68,7 @@ html,body {
   
 }
    
-.btn-lg:hover {
+.play:hover {
   color: black;
   background-color: blue;
   box-shadow: 4px 4px 5px black;
@@ -81,4 +81,15 @@ html,body {
   text-align: center;
   
   margin-top: 100px;
+}
+
+.back {
+  position: relative;
+  top: 5vw;
+  right: -30vw;
+  border-radius: 50px;
+  width: 10vw;
+  min-width: 10vw;
+
+  
 }
