@@ -73,3 +73,12 @@ html,body {
   background-color: blue;
   box-shadow: 4px 4px 5px black;
 }
+
+.gopage-text {
+  font-family:'gilroy-bold';
+  font: bold;
+  color: aliceblue;
+  text-align: center;
+  
+  margin-top: 100px;
+}
