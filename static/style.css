@@ -55,7 +55,8 @@ html,body {
  
   position: relative;
   float: left;
-
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   left: 71vw;
   bottom: 35vw;
   color: blue;
@@ -79,7 +80,7 @@ html,body {
   font: bold;
   color: aliceblue;
   text-align: center;
-  
+  border-width: thick;
   margin-top: 100px;
 }
 
@@ -92,4 +93,13 @@ html,body {
   min-width: 10vw;
 
   
+}
+
+.GO {
+  position: relative;
+  top: 5vw;
+  right: -51vw;
+  border-radius: 50px;
+  width: 10vw;
+  min-width: 10vw;
 }

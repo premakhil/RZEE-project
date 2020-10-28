@@ -11,3 +11,8 @@ def home():
 @app.route('/go')
 def go():
     return render_template('gopage.html')
+
+
+@app.route('/play')
+def play():
+    return render_template('play.html')
