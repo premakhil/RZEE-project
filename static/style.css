@@ -82,7 +82,20 @@ html,body {
   text-align: center;
   border-width: thick;
   margin-top: 100px;
+  
 }
+
+.container2 {
+  background-color: #1B1B2F;
+  margin: auto;
+  margin-top: 10px;
+  width: 450px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+}
+
 
 .back {
   position: relative;
@@ -103,3 +116,4 @@ html,body {
   width: 10vw;
   min-width: 10vw;
 }
+
