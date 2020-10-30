@@ -48,7 +48,7 @@ def play():
 @app.route('/mohammed')
 def mohammed():
 
-    return render_template('mohammed.html', cursor=cursor)
+    return render_template('mohammed.html')
 
 
 @app.route('/ashoor')
