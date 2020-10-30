@@ -9,7 +9,36 @@
 
 </div>
 
-<a href="{{url_for('home')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+
+{% if q == questions['Mohammed'] %}
+<a href="{{url_for('mohammed')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Ashoor'] %}
+<a href="{{url_for('ashoor')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Shebeeb'] %}
+<a href="{{url_for('shebeeb')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Fuad'] %}
+<a href="{{url_for('fuad')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Adam'] %}
+<a href="{{url_for('adam')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Allan'] %}
+<a href="{{url_for('allan')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+{% if q == questions['Akhil'] %}
+<a href="{{url_for('akhil')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+{% endif %}
+
+
 <a href="{{url_for('play')}}"><button type="button" class="btn btn-primary btn-lg GO">No</button></a>
 
 {% endblock content%}

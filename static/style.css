@@ -131,3 +131,14 @@ html,body {
   text-align: center;
   font-family: cursive;
 }
+
+.profile_picture {
+  width: 50vw;
+  
+  height: auto;
+  
+  opacity: 0.5;
+  box-shadow: 0 100px 100px black;
+  
+  
+}

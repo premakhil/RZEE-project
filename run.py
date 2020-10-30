@@ -1,20 +1,18 @@
 from flask import Flask, redirect, render_template, url_for
-from Database import db
-
-cursor = db.cursor()
 
 
 app = Flask(__name__)
 
 questions = {
     'Mohammed': 'Is he the best in business when it comes to any f*king sport out there?',
-    'Ashoor': 'Will he be the one to soon hit a million in cash?',
+    'Ashoor': "Asma's Habibi?",
     'Shebeeb': 'Is he the fastest of the clan?',
-    'Fuad': 'Does he have the ability to turn anything into "A"',
+    'Fuad': 'Does he have the ability to sexualize anything?',
     'Adam': 'Did he almost have the chance of joining Blasters F C ',
-    'Allan': 'Always High af?',
+    'Allan': 'Bow wow?',
     'Akhil': 'Did he develop this site?'
 }
+
 
 global options
 options = ['Mohammed', 'Ashoor', 'Shebeeb', 'Fuad', 'Adam', 'Allan', 'Akhil']
@@ -44,4 +42,40 @@ def play():
         options = ['Mohammed', 'Ashoor', 'Shebeeb',
                    'Fuad', 'Adam', 'Allan', 'Akhil']
 
-    return render_template('play.html', q=q)
+    return render_template('play.html', q=q, questions=questions)
+
+
+@app.route('/mohammed')
+def mohammed():
+
+    return render_template('mohammed.html', cursor=cursor)
+
+
+@app.route('/ashoor')
+def ashoor():
+    return render_template('ashoor.html')
+
+
+@app.route('/shebeeb')
+def shebeeb():
+    return render_template('shebeeb.html')
+
+
+@app.route('/fuad')
+def fuad():
+    return render_template('fuad.html')
+
+
+@app.route('/adam')
+def adam():
+    return render_template('adam.html')
+
+
+@app.route('/allan')
+def allan():
+    return render_template('allan.html')
+
+
+@app.route('/akhil')
+def akhil():
+    return render_template('akhil.html')
