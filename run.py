@@ -16,6 +16,9 @@ questions = {
     'Akhil': 'Did he develop this site?'
 }
 
+global options
+options = ['Mohammed', 'Ashoor', 'Shebeeb', 'Fuad', 'Adam', 'Allan', 'Akhil']
+
 
 @app.route('/')
 def home():
@@ -29,6 +32,16 @@ def go():
 
 @app.route('/play')
 def play():
-    q = questions['Fuad']
+    global options
+
+    for i in options:
+        q = questions[i]
+        options.remove(i)
+        break
+
+    if len(options) == 0:
+
+        options = ['Mohammed', 'Ashoor', 'Shebeeb',
+                   'Fuad', 'Adam', 'Allan', 'Akhil']
 
     return render_template('play.html', q=q)
