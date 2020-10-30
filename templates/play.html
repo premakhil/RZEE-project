@@ -2,6 +2,14 @@
 
 {% block content%}
 
+<div class="container3">
+    <h1>
+        {{q}}
+    </h1>
 
+</div>
+
+<a href="{{url_for('home')}}"><button type="button" class="btn btn-primary btn-lg back">Yes</button></a>
+<a href="{{url_for('play')}}"><button type="button" class="btn btn-primary btn-lg GO">No</button></a>
 
 {% endblock content%}

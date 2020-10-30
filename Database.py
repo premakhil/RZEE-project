@@ -6,5 +6,3 @@ db = sql.connect(
     passwd="*archana",
     database="rzee",
 )
-
-cursor = db.cursor()
