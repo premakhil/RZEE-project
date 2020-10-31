@@ -1,1 +1,23 @@
 {% extends "layout.html" %}
+
+
+{% block content %}
+<img src="{{url_for('static',filename='Shebeeb.png')}}" alt="" class="profile_picture">
+
+<div class="container4-shebeeb">
+    <div class="member-details">
+        <u>Name:</u><h2>Shebeeb Ashraf</h2><br>
+        <u>DOB:</u><h2></h2><br>
+        <u>Nickname:</u><h2>Hawildar Ashraf, Vikalangan</h2>
+
+        
+
+    </div>
+    
+    
+
+</div>
+
+<a href="{{url_for('home')}}"><button type="button" class="btn btn-primary btn-lg exit">Exit</button></a>
+
+{% endblock content %}
