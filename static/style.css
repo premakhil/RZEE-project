@@ -43,7 +43,7 @@ html,body {
   border-radius: 70px;
   opacity: 2.50;
   position: relative;
-  right: 50px;
+  left: -5vw;
   box-shadow: 4px 4px 5px rgba(0, 0, 255, 0.589);
   width: 35vw;
   height: auto;
