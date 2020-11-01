@@ -8,7 +8,7 @@ questions = {
     'Ashoor': "Asma's Habibi?",
     'Shebeeb': 'Is he the fastest of the clan?',
     'Fuad': 'Does he have the ability to sexualize anything?',
-    'Adam': 'Did he almost have the chance of joining Blasters F C ',
+    'Adam': 'Did he almost have the chance of joining Blasters?',
     'Allan': 'Bow wow?',
     'Akhil': 'Did he develop this site?'
 }
